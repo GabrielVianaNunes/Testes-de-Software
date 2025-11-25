@@ -1,0 +1,74 @@
+#############################
+# Maven
+#############################
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+.mvn/wrapper/maven-wrapper.jar
+
+#############################
+# Logs
+#############################
+*.log
+*.out
+*.err
+
+#############################
+# IDE / NetBeans
+#############################
+nbproject/private/
+nbproject/Makefile-*
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+*.nb-gradle
+
+#############################
+# Arquivos temporários / cache
+#############################
+*.iml
+*.class
+*.swp
+*.swo
+*.tmp
+
+#############################
+# Sistema operacional
+#############################
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+#############################
+# Backup files
+#############################
+*~
+*.bak
+*.backup
+
+#############################
+# OneDrive (para evitar arquivos invisíveis)
+#############################
+*.lnk
+*._*
+*.tmp
+~$*
+
+#############################
+# Selenium / WebDriverManager cache
+#############################
+.cache/
+selenium-downloads/
+webdriver/
+chromedriver/
+geckodriver/
+
+#############################
+# Outros
+#############################
+.vscode/
+.idea/
+*.jar

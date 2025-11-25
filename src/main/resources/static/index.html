@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Clientes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Cadastro de Clientes</h1>
+
+    <form id="clienteForm">
+        <input type="hidden" id="clienteId">
+
+        <div class="form-group">
+            <label for="nome">Nome*</label>
+            <input type="text" id="nome" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">E-mail*</label>
+            <input type="email" id="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="telefone">Telefone*</label>
+            <input type="text" id="telefone" required>
+        </div>
+
+        <div class="form-group">
+            <label for="cidade">Cidade*</label>
+            <input type="text" id="cidade" required>
+        </div>
+
+        <button type="submit" id="btnSalvar">Salvar</button>
+        <button type="button" id="btnCancelar" class="secondary" style="display:none;">Cancelar edição</button>
+    </form>
+
+    <div id="mensagem" class="mensagem"></div>
+
+    <h2>Lista de Clientes</h2>
+    <table id="tabelaClientes">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nome</th>
+            <th>E-mail</th>
+            <th>Telefone</th>
+            <th>Cidade</th>
+            <th>Ações</th>
+        </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
