@@ -161,9 +161,9 @@ Testes de Integração	Selenium WebDriver + WebDriverManager
 IDE	NetBeans 22
 
 🎥 6. Vídeo Demonstrativo
-URL do vídeo (YouTube ou Google Drive):
+URL do vídeo (Google Drive):
 
-👉 https://
+👉  https://drive.google.com/file/d/1fNyjisToI-AS6LeyxzTk1kKn7hReVCqX/view?usp=sharing
 
 O vídeo deve mostrar:
 
